@@ -8,4 +8,5 @@ void setup() {
 void loop() {
     value = analogRead(FSR_PIN);
     Serial.println(value);
+    delay(500);
 }
